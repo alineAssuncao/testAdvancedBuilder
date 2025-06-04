@@ -1,14 +1,18 @@
+using Ardalis.GuardClauses;
+
+namespace TestAdvanced.ECommerce.Domain;
+
 public class Address
 {
     public Address(string street, string city, string state, string zipCode, int number)
     {
-        Street = Guard.Agaist.NullOrWhiteSpace(street);
-        City = Guard.Agaist.NullOrWhiteSpace(city);
-        Guard.Agaist.NullOrWhiteSpace(state);
-        State = Guard.Agaist.LengthOutOfRange(state, 2, 2);
-        Guard.Agaist.NullOrWhiteSpace(zipCode);
-        ZipCode = Guard.Agaist.InvalidFormat(zipCode, nameof(zipCode), pattern: @"^\d{5}(-\d{3})?$");
-        Number = Guard.Agaist.NegativeOrZero(number);
+        Street = Guard.Against.NullOrWhiteSpace(street);
+        City = Guard.Against.NullOrWhiteSpace(city);
+        Guard.Against.NullOrWhiteSpace(state);
+        State = Guard.Against.LengthOutOfRange(state, 2, 2);
+        Guard.Against.NullOrWhiteSpace(zipCode);
+        ZipCode = Guard.Against.InvalidFormat(zipCode, nameof(zipCode), @"^\d{5}(-\d{3})?$");
+        Number = Guard.Against.NegativeOrZero(number);
     }
 
     public string Street { get; }
