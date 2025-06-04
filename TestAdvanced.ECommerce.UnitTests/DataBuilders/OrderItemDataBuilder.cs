@@ -14,7 +14,7 @@ public class OrderItemDataBuilder
         var faker = new Faker("pt_BR");
         _name = faker.Commerce.ProductName();
         _quantity = faker.Random.Int(1, 10);
-        _price = faker.Random.Decimal(1.00m, 1000.00m);
+        _price = faker.Random.Decimal(1, 1000);
     }
 
     public OrderItemDataBuilder WithName(string name)

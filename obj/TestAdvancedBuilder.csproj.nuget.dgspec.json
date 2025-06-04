@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {}
+    "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {}
   },
   "projects": {
-    "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {
+    "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
+        "projectUniqueName": "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
         "projectName": "TestAdvancedBuilder",
-        "projectPath": "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
+        "projectPath": "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
         "packagesPath": "C:\\Users\\aline\\.nuget\\packages\\",
-        "outputPath": "D:\\ProjetosGit\\testAdvancedBuilder\\obj\\",
+        "outputPath": "d:\\ProjetosGit\\testAdvancedBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aline\\AppData\\Roaming\\NuGet\\NuGet.Config"

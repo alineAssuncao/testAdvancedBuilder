@@ -23,14 +23,16 @@ public class Order
         Guard.Against.NullOrEmpty(items);
         _items.AddRange(items);
         Status = OrderStatus.Created;
+        CalculateAmount();
     }
 
     private void CalculateAmount()
     {
-        Amount = _items.Sum(item => item.Total);
+        var discount = Customer.IsPremium ? 0.1m : 0; // 10% discount for premium customers
+        Amount = _items.Sum(item => item.Total) * (1 - discount);
     }
 
-    public void AddItewm(OrderItem item)
+    public void AddItem(OrderItem item)
     {
         Guard.Against.Null(item);
         if (Status != OrderStatus.Created && Status != OrderStatus.Confirmed)
