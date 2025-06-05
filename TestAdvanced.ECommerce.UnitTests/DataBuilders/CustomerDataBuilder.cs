@@ -22,6 +22,11 @@ public class CustomerDataBuilder
         return new CustomerDataBuilder().AsPremium();
     }
 
+    public static CustomerDataBuilder ARegularCustomer()
+    {
+        return new CustomerDataBuilder().AsRegular();
+    }
+
     public CustomerDataBuilder WithId(int id)
     {
         _id = id;
