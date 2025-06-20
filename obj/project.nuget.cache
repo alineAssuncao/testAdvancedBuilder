@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "em9CtXb/hA8=",
+  "dgSpecHash": "K3Y3ZACYrRA=",
   "success": true,
-  "projectFilePath": "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
+  "projectFilePath": "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aline\\.nuget\\packages\\ardalis.guardclauses\\5.0.0\\ardalis.guardclauses.5.0.0.nupkg.sha512",
     "C:\\Users\\aline\\.nuget\\packages\\bogus\\35.6.3\\bogus.35.6.3.nupkg.sha512",

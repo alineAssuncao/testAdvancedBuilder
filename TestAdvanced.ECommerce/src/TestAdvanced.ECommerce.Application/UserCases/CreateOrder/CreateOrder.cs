@@ -1,5 +1,6 @@
 using System;
 using TestAdvanced.ECommerce.Domain.Entities;
+using TestAdvanced.ECommerce.Domain.Repositories;
 
 namespace TestAdvanced.ECommerce.Application.UserCases.CreateOrder;
 

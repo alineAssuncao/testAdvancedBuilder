@@ -6301,6 +6301,7 @@
       "outputPath": "D:\\ProjetosGit\\testAdvancedBuilder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "D:\\ProjetosGit\\testAdvancedBuilder\\NuGet.Config",
         "C:\\Users\\aline\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
@@ -6376,7 +6377,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,5 +1,5 @@
 using System.Threading.Tasks;
-using TestAdvanced.ECommerce.Application.Entities;
+using TestAdvanced.ECommerce.Domain.Entities;
 
 namespace TestAdvanced.ECommerce.Domain.Repositories;
 

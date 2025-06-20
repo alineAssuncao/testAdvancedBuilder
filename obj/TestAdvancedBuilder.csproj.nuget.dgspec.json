@@ -1,19 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {}
+    "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {}
   },
   "projects": {
-    "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {
+    "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
+        "projectUniqueName": "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
         "projectName": "TestAdvancedBuilder",
-        "projectPath": "d:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
+        "projectPath": "D:\\ProjetosGit\\testAdvancedBuilder\\TestAdvancedBuilder.csproj",
         "packagesPath": "C:\\Users\\aline\\.nuget\\packages\\",
-        "outputPath": "d:\\ProjetosGit\\testAdvancedBuilder\\obj\\",
+        "outputPath": "D:\\ProjetosGit\\testAdvancedBuilder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
+          "D:\\ProjetosGit\\testAdvancedBuilder\\NuGet.Config",
           "C:\\Users\\aline\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
